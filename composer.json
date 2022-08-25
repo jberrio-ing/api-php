@@ -1,0 +1,23 @@
+{
+    "name": "jberrio-ing/prueba-php",
+    "description": "Proyecto de prueba",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jhonvanny",
+            "email": "jberrio.ing@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "./src"
+        },
+        "files": [
+            "./src/helpers/index.php"
+        ]
+    },
+    "require": {
+        "symfony/dotenv": "^6.1"
+    }
+}
